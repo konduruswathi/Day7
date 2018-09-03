@@ -5,7 +5,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class ValidateName {
+public class ValidateDate {
 	public static Object valid(String inDate, int shift) {
 		DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 		format.setLenient(false);

@@ -26,7 +26,7 @@ class RandomNumberTest {
 				for (int i = 0; i < 100; i++) {
 
 					print.println(rand.nextInt(50) + 1);
-					System.out.println(i);
+					//System.out.println();
 				}
 			} catch (FileNotFoundException e1) {
 				// TODO Auto-generated catch block
